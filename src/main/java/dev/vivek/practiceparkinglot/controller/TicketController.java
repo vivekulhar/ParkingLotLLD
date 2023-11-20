@@ -2,6 +2,7 @@ package dev.vivek.practiceparkinglot.controller;
 
 import dev.vivek.practiceparkinglot.dtos.GenerateTicketRequestDto;
 import dev.vivek.practiceparkinglot.dtos.GenerateTicketResponseDto;
+import dev.vivek.practiceparkinglot.service.TicketService;
 
 public class TicketController {
     private TicketService ticketService;
