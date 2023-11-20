@@ -11,7 +11,7 @@ public class PracticeParkingLotApplication {
 
 	public static void main(String[] args) {
 
-		ApplicationContext applicationContext = SpringApplication.run(PracticeParkingLotApplication.class, args);
+		SpringApplication.run(PracticeParkingLotApplication.class, args);
 		ObjectRegistryBuilder.buildObjectRegistry();
 		ParkingLotController parkingLotController = (ParkingLotController) ObjectRegistry.get("parkingLotController");
 		CreateParkingLotRequestDto request = new CreateParkingLotRequestDto();
